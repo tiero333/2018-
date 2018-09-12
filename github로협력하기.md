@@ -92,3 +92,6 @@ SourceTree 상단 Repository메뉴 - Add romote... - Remotes - Add - Remote name
 협업 할 프로젝트의 github에서 Clone or download 클릭 - HTTPS URL 복사 - SourceTree에서 상단의 '+'클릭 - Clone - Source Path/URL : (붙여넣기) - Destination Path : (
 복사한 프로젝트를 저장하고 git과 연동시킬 로컬 저장소 선택) - Name : (직접 입력) - Clone 클릭
 
+이렇게 하면 프로젝트가 내 로컬 저장소에 복제됨과 동시에 github와 연동이 완료된다.
+
+이후 pull, push, fetch를 적절하게 이용하여 소스 충돌을 조심하며 협업하면 된다.
