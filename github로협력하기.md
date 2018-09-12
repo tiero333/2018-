@@ -1,7 +1,8 @@
 #Git 협업 방법
 ==============
 
-1. Git과 SourceTree 설치
+1.Git과 SourceTree 설치
+-----------------------
 
 Git으로 협업 하기 위해 가장 첫번째로 Git을 설치한다.
 
@@ -13,7 +14,7 @@ Git은 명령어로 사용하기 때문에 사용에 어려움이 있을 수 있
 
 Git을 좀 더 쉽게 사용하기 위해 Git을 GUI화 시켜주는 프로그램인 SourceTree도 설치한다.
 
-2. 저장소 만들기 (init)
+2.저장소 만들기 (init)
 -----------------------
 
 SourceTree를 실행하고 Add Repository(저장소 추가)를 누른다.
@@ -23,7 +24,7 @@ Create New Repository클릭 - Repository Type : Git - Destination Path : (자신
 앞으로의 작업이 내 컴퓨터에 저장되는 로컬저장소를 만들었다.
 
 
-3. 버전 만들기 (commit)
+3.버전 만들기 (commit)
 -----------------------
 
 ※해당 작업에 앞서 상단메뉴 Tool - Options - General탭에 Default user information에 있는 Full Name과 Email address를 입력하고 OK해주자.
@@ -42,7 +43,7 @@ Commit을 클릭하면 하단 File Status탭으로 이동되는데 하단 공란
 
 Git에 반영된 내용은 SourceTree의 Log/History탭에서 확인할 수 있다.
 
-4. 원격 저장소
+4.원격 저장소
 --------------
 
 Git은 기본적으로 로컬저장소에 저장하는 방식이다.
@@ -56,14 +57,14 @@ Git은 기본적으로 로컬저장소에 저장하는 방식이다.
 원격 저장소에는 여러가지 종류가 있지만 가장 보편적인 github를 이용하도록 하겠다.
 
 
-4.1. 원격 저장소 만들기
+4.1.원격 저장소 만들기
 ----------------------
 
 github.com에 로그인하고(계정이 없다면 가입) 메인 페이지에서 Start a project를 클릭한다.
 
 Repository name을 입력 후 하단의 메뉴들은 자신의 기호에 맞게 설정한 후 Create repoasitory를 클릭한다.
 
-4-2. SourceTree에 원격 저장소 연결하기
+4.2.SourceTree에 원격 저장소 연결하기
 -------------------------------------
 
 github에 만든 repository를 클릭한다.
@@ -76,14 +77,14 @@ SourceTree 상단 Repository메뉴 - Add romote... - Remotes - Add - Remote name
 
 이렇게 하면 SourceTree 왼쪽 REMOTES항목 아래에 github와 연결된 원격 저장소가 생성된다.
 
-5. 협업하기
+5.협업하기
 -----------
 
 원격 저장소에 프로젝트가 올라가있으면 외부에서 접근이 가능하고, 이것은 곧 협업이 가능하다는 의미가 된다.
 
 내 프로젝트에 다른 사람을 참가시키거나 내가 다른사람의 프로젝트에 참여해보자.
 
-5-1. 원격 저장소 복제
+5.1.원격 저장소 복제
 --------------------
 
 다른 사람의 프로젝트를 함께 진행하기 위해서는 그 사람의 원격 저장소에서 소스들을 자신의 로컬 저장소로 복제하여 가져와야 한다.
